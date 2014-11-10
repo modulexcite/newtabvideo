@@ -7,9 +7,14 @@ video#bgvid {
   background: rgba(0,0,0,0.1);
 }
 #time {
-  font-size: 500%;
+  font-size: 600%;
   background-color:rgba(255,255,255,.4);
   display:inline-block;
   float: right;
+  font-family: Nasalization;
 }
 
+@font-face {
+  font-family: Nasalization;
+  src: url('nasaliza.ttf');
+}
