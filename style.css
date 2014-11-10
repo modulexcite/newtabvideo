@@ -2,7 +2,14 @@ video#bgvid {
   position: fixed; right: 0; bottom: 0;
   min-width: 100%; min-height: 100%;
   width: auto; height: auto; z-index: -100;
-  background: url(//www.youtube.com/embed/pWG-NLaLiHg) no-repeat;
   background-size: cover;
+  background: url(//www.youtube.com/embed/pWG-NLaLiHg) no-repeat;
   background: rgba(0,0,0,0.1);
 }
+#time {
+  font-size: 500%;
+  background-color:rgba(255,255,255,.4);
+  display:inline-block;
+  float: right;
+}
+
